@@ -1,0 +1,17 @@
+name: dswx_qa
+channels:
+ - conda-forge
+ - anaconda
+ - defaults
+dependencies:
+ - python>=3.10
+ - jupyter
+ - ipykernel
+ - rasterio
+ - shapely
+ - numpy
+ - matplotlib
+ - geopandas
+ - boto3
+ - rioxarray
+ - dask
